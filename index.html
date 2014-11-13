@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+	<title>tooltip</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.tooltip.js"></script>
+
+	<style>
+		.tooltip {
+			background: #ccc;
+			border-radius: 3px;
+			padding: 7px;
+			position: absolute;
+		}
+		.tooltip:before {
+			border: 7px solid transparent;
+			content: "";
+			height: 0;
+			position: absolute;
+			width: 0;
+		}
+		.top:before {
+			border-top: 7px solid #ccc;
+			bottom: -14px;
+		}
+		.bottom:before {
+			border-bottom: 7px solid #ccc;
+			top: -14px;
+		}
+		.right:before {
+			right: 5px;
+		}
+	</style>
+</head>
+<body>
+
+	<img src="http://dummyimage.com/600x400/000/fff" data-tooltip="tooltip 1" class="hastooltip" alt="">
+	<span data-tooltip="tooltip 2 <img src='http://dummyimage.com/600x400/000/fff'>" class="hastooltip">texto texto texto</span>
+	<img src="http://dummyimage.com/490x400/000/fff" data-tooltip="tooltip 3" class="hastooltip" alt="">
+	<span data-tooltip="vruivrbvie ciheroicheoihfioeh hcoeruihrofihre" class="hastooltip">texto</span>
+
+	<img src="http://dummyimage.com/600x400/000/fff" data-tooltip="tooltip 1" class="hastooltip" alt="">
+	<span data-tooltip="tooltip 2" class="hastooltip">texto texto texto</span>
+	<img src="http://dummyimage.com/490x400/000/fff" data-tooltip="tooltip 3" class="hastooltip" alt="">
+	<span data-tooltip="vruivrbvie ciheroicheoihfioeh hcoeruihrofihre" class="hastooltip">texto</span>
+
+	<script type="text/javascript">
+	$(".hastooltip").tooltip();
+	</script>
+
+</body>
+
+
+</html>
