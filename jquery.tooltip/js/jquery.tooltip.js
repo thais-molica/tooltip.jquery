@@ -19,7 +19,7 @@
         	center: true ,
 
         	/* css */
-    		default_css: 'jquery.tooltip/style-tooltip.css'
+    		default_css: 'jquery.tooltip/css/style-tooltip.css'
         } ,
 
         options = options || false ,
