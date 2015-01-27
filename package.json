@@ -1,0 +1,9 @@
+{
+  "name": "jquery.tooltip",
+  "version": "0.0.1",
+  "devDependencies": { 
+  	"gulp": "~3.8.0",
+  	"gulp-sass": "~0.7.2",
+  	"gulp-autoprefixer": "~0.0.7"
+  }
+}
