@@ -1,6 +1,5 @@
 tooltip.jquery
 ==============
 
-Meu primeiro plugin <3
-<p>A primeira versão de uma brincadeira para estudo de jquery</p>
+Tooltip plugin made in jQuery [still on development] :art:
 http://tests.guiatech.com.br/tooltip/
